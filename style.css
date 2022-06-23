@@ -1,0 +1,30 @@
+h1 {
+  display: flex;
+  justify-content:center;
+}
+
+#round_result_div {
+  display: flex;
+  justify-content: center;
+}
+
+.div_options {
+  display: flex;
+  gap: 5em;
+  align-content: space-between;
+  justify-content: center;
+}
+
+.options {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.end_game_msg {
+  display: flex;
+  justify-content: center;
+  color: yellow;
+}
+
