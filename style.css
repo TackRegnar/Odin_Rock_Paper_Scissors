@@ -1,6 +1,14 @@
+html {
+  background-image: url("./img/rps_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+}
+
 h1 {
   display: flex;
   justify-content:center;
+  color: red;
 }
 
 #round_result_div {
@@ -8,6 +16,8 @@ h1 {
   justify-content: center;
   gap: 10px;
   align-content: space-between;
+  color: red;
+  font-size: 200%;
 }
 
 .div_options {
@@ -24,9 +34,10 @@ h1 {
   border-radius: 20px;
 }
 
-.end_game_msg {
+#end_game_msg_div {
   display: flex;
   justify-content: center;
   color: yellow;
+  font-size: 300%;
 }
 
