@@ -6,6 +6,8 @@ h1 {
 #round_result_div {
   display: flex;
   justify-content: center;
+  gap: 10px;
+  align-content: space-between;
 }
 
 .div_options {
